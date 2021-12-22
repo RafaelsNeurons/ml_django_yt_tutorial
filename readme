@@ -2,3 +2,14 @@ Django/Machine Learning Youtube Tutorial of KenBroTech
 https://www.youtube.com/watch?v=MrRI0ZFoLyc&list=PLInvlTu9nmo8ngRePTSPuqQdeLAGe0-Is&index=2
 
 Building a Django App which includes a ML-Model of Sklearn to predict the sportactivity of a person
+
+Goal:
+I was following this tutorial to become mor confitent with Django and also to learn how I can connect a Machine Learning Model with a Python Application
+The Model was trained in Google Colab. First I tried to train it with a Macbook Air M1 but I faced problems to install Sklearn.
+
+
+
+
+Templates snippets by :
+https://django-crispy-forms.readthedocs.io/en/latest/filters.html
+https://getbootstrap.com/
