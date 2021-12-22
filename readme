@@ -4,8 +4,9 @@ https://www.youtube.com/watch?v=MrRI0ZFoLyc&list=PLInvlTu9nmo8ngRePTSPuqQdeLAGe0
 Building a Django App which includes a ML-Model of Sklearn to predict the sportactivity of a person
 
 Goal:
-I was following this tutorial to become mor confitent with Django and also to learn how I can connect a Machine Learning Model with a Python Application
-The Model was trained in Google Colab. First I tried to train it with a Macbook Air M1 but I faced problems to install Sklearn.
+I was following this tutorial to become more confitent with Django and also to learn how I can connect a Machine Learning Model with a Python Application
+The Model was trained in Google Colab. First I tried to train it with a Macbook Air M1 but I faced problems to install Sklearn. Thats why I used Colab and later 
+for the implementation of the Django-App is used a Windows-Laptop.
 
 
 
