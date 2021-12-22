@@ -8,31 +8,23 @@
             <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="Name">#</th>
+                    <th scope="Age">First</th>
+                    <th scope="col">Height</th>
+                    <th scope="col">Sex</th>
+                    <th scope="col">Prediction</th>
                   </tr>
                 </thead>
                 <tbody>
+                  {% for data in predicted_sports %}
                   <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
+                    <th scope="row">{{ data.name }}</th>
+                    <td>{{ data.age }}</td>
+                    <td>{{ data.height }}</td>
+                    <td>{{ data.sex }}</td>
+                    <td>{{ data.predictions }}</td>
+                  </td> 
+                  {% endfor %}
                 </tbody>
               </table>    
         </div>
